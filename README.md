@@ -21,7 +21,7 @@ The dataset includes **key HR attributes** such as:
 
 ## 🔍 **SQL Data Analysis**  
 
-### **Advanced Queries:**  
+### **Basic Queries:**  
 ✔ **Retrieve Employee Attrition Data**  
 ```sql
 SELECT * FROM HR_Data WHERE Attrition = 'Yes';
@@ -35,7 +35,7 @@ SELECT Department, COUNT(*) AS EmployeeCount FROM HR_Data GROUP BY Department;
 SELECT Job_Role, AVG(Monthly_Income) AS AvgSalary FROM HR_Data GROUP BY Job_Role;
 ```
 
-### **Basic Queries:**
+### **Advanced Queries:**
 ✔ **Attrition Rate Calculation**
 ```
 SELECT 
