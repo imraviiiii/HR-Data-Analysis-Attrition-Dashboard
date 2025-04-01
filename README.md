@@ -21,7 +21,7 @@ The dataset includes **key HR attributes** such as:
 
 ## 🔍 **SQL Data Analysis**  
 
-### **Basic Queries:**  
+### **Advanced Queries:**  
 ✔ **Retrieve Employee Attrition Data**  
 ```sql
 SELECT * FROM HR_Data WHERE Attrition = 'Yes';
